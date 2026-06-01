@@ -73,7 +73,6 @@ nav a:hover {
     color: #ffffff;
 }
 
-/* ESTILIZAÇÃO DOS ÍCONES SOCIAIS */
 .header-socials {
     margin-left: auto;
     display: flex;
@@ -189,10 +188,10 @@ nav a:hover {
 }
 
 .card {
-    background: #046af1;
+    background: #1E293B;
     padding: 35px;
     border-radius: 20px;
-    border: 1px solid #ffffff;
+    border: 1px solid #066DF3;
     transition: .3s;
 }
 
@@ -236,10 +235,11 @@ nav a:hover {
 }
 
 .lista-beneficios div {
-    background: #046AF1;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,.05);
+    background: #1E293B;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid #066DF3;
+    transition: .3s;
 }
 
 
@@ -270,7 +270,6 @@ footer {
         padding: 15px 0;
     }
 
-    /* Modificado: Removeu display:none e ajustou para telas pequenas */
     .nav {
         flex-direction: column;
         gap: 15px;
@@ -288,7 +287,6 @@ footer {
     .header-socials {
         margin: 0 auto;
     }
-    /* Fim da modificação do menu */
 
     .hero {
         padding: 60px 0;
