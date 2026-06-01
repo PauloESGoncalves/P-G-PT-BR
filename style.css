@@ -270,13 +270,25 @@ footer {
         padding: 15px 0;
     }
 
+    /* Modificado: Removeu display:none e ajustou para telas pequenas */
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
     nav {
-        display: none;
+        position: static;
+        transform: none;
+    }
+
+    nav ul {
+        gap: 20px;
     }
 
     .header-socials {
-        margin-left: auto;
+        margin: 0 auto;
     }
+    /* Fim da modificação do menu */
 
     .hero {
         padding: 60px 0;
